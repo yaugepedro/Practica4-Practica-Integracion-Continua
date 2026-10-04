@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Enviar notificacion
-        run: curl -d "Se subio codigo a main" ntfy.sh/devops-itla
+        run: curl -d "Se subio codigo a main - Hola Mundo | Yauge Pedro Volquez Terrero 2025-1173" ntfy.sh/devops-itla
