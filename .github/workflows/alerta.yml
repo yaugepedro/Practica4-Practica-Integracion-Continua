@@ -1,0 +1,13 @@
+name: Alerta
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notificar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Enviar notificacion
+        run: curl -d "Se subio codigo a main" ntfy.sh/devops-itla
